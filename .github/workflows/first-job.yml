@@ -1,0 +1,12 @@
+name: first-job
+on: 
+    workflow_dispatch:
+    push:
+      branches:
+        - main
+jobs:
+  first-step:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my designation
+        run: echo "My designation is Sr Build and Release Engineer"    
