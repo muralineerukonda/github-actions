@@ -9,4 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my designation
-        run: echo "My designation is Sr Build and Release Engineer"    
+        run: |
+             echo "My designation is Sr Build and Release Engineer" 
+             echo "My work involves devops activities"
+        
