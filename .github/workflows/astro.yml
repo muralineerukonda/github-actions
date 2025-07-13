@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+env:
+  MY_NAME: Neerukonda Murali Krishna
 jobs:
   print-myname:
     runs-on: ubuntu-latest
     steps:
       - name: print name
-        run: echo "My Name is Neerukonda Murali Krishna"
+        run: echo "My Name is ${{env.MY_NAME}}"
