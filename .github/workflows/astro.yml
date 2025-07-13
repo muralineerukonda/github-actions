@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: print name
         run: echo "My Name is $MY_NAME"
+  print-my-role:
+    runs-on: ubuntu-latest
+    env:
+      MY_ROLE: Software Engineer
+    steps:
+      - name: print role
+        run: echo "My Role is $MY_ROLE"
