@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print name
-        run: echo "My Name is ${{env.MY_NAME}}"
+        run: echo "My Name is $MY_NAME"
